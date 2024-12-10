@@ -7,7 +7,7 @@ export default function AllFormation() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/allTraining");
+        const response = await axios.get("https://backendplateformeelearning.onrender.com");
         setAllFormation(response.data.formations); 
         console.log(response.data.formations);
       } catch (error) {
