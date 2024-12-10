@@ -16,7 +16,7 @@ export default function AllFormation() {
     };
     fetchData();
   }, []);
-
+// t
   return (
     <div>
       <h1 className="font-bold">Mes Formations</h1>
@@ -27,7 +27,7 @@ export default function AllFormation() {
             <div><strong>Date de formation:</strong> {formation.dateFormation}</div>
             <div><strong>Utilisateur max:</strong> {formation.nombreUtilisateursMax}</div>
             <div><strong>Thématique:</strong> {formation.thematique}</div>
-            <div><strong>Prix:</strong> {formation.prix} €</div>
+            <div><strong>Prix:</strong> {formation.prix} FCFA</div>
             <div><strong>Date d'ajout:</strong> {formation.dateAjout}</div>
             <div><strong>Date de modification:</strong> {formation.dateModification}</div>
 
